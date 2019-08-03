@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@+id/dstHomeFragment">
+
+    <fragment
+        android:id="@+id/dstHomeFragment"
+        android:name="cc.goodman.rave.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/dstCourseFragment"
+        android:name="cc.goodman.rave.CourseFragment"
+        android:label="fragment_course"
+        tools:layout="@layout/fragment_course" />
+    <fragment
+        android:id="@+id/dstMeFragment"
+        android:name="cc.goodman.rave.MeFragment"
+        android:label="fragment_me"
+        tools:layout="@layout/fragment_me" />
+</navigation>

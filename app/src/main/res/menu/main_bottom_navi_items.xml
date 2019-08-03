@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
+        android:id="@id/dstHomeFragment"
         android:icon="@drawable/ic_home"
         android:title="@string/home" />
     <item
+        android:id="@id/dstCourseFragment"
         android:icon="@drawable/ic_course"
         android:title="@string/course" />
     <item
+        android:id="@id/dstMeFragment"
         android:icon="@drawable/ic_me"
         android:title="@string/me" />
 </menu>
