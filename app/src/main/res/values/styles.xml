@@ -1,15 +1,27 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="editTextStyle">@style/RvEditTextStyle</item>
+        <item name="textInputStyle">@style/RaveTextInputStyle</item>
     </style>
 
-    <style name="SplashTheme" parent="AppTheme">
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light">
         <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+    <style name="RvEditTextStyle" parent="Widget.AppCompat.EditText">
+        <!--<item name="android:color">@color/colorPrimary</item>-->
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+    </style>
+
+    <style name="RaveTextInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <!--<item name="counterTextColor">@color/colorPrimary</item>-->
+        <!--<item name="boxBackgroundColor">#00FFFFFF</item>-->
     </style>
 
 </resources>
